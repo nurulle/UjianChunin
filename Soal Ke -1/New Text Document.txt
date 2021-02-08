@@ -1,0 +1,11 @@
+Soal dasar mengenai pengetahuan dasar programming.
+
+Apakah yang dimaksud dengan Variabel dan Tipe Data didalam Javascript? Jelaskan jenis-jenis nya!
+
+Variabel yaitu sebuah tempat atau wadah yang digunakan untuk menyimpan nilai
+
+Apakah perbedaan antara percabangan if-else dengan switch-case? Berikan contohnya dalam bentuk code sederhana!
+Apakah yang dimaksud dengan function dan method dalam Javascript? Jelaskan perbedaannya! dan berikan contohnya dalam bentuk code sederhana
+Apa yang kamu ketahui tentang synchronous dan asynchronous programming di Javascript?
+
+
