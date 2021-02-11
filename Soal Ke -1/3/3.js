@@ -1,5 +1,19 @@
+//function
+
 function plug() {
-    Console.log("halo gaes");
+    console.log("halo gaes");
    }
-Plug();
+plug();
    
+//method
+
+let alamat = {
+    jalan : "Beringin",
+    gang : "censana",
+    
+    full : function () {
+        return 'saya tinggal di jalan ' + this.jalan + 'gang ' + this.gang;
+    }
+}
+  
+console.log(alamat.full)
