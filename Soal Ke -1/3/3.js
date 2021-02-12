@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //function
 
 function plug() {
@@ -17,3 +18,10 @@ let alamat = {
 }
   
 console.log(alamat.full)
+=======
+function plug() {
+    Console.log("halo gaes");
+   }
+Plug();
+   
+>>>>>>> 06dff7dbe49dfb064dda9c7e72fb8c58ae368c30
