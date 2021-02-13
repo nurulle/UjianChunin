@@ -2,7 +2,7 @@
 //wpu ke 11 lnjutan
 
 fetch('https://dhiyo-api-article.herokuapp.com/articles')
-        .then(api => api.json())
-        .then(json => json.data.map(ambil => {
-            console.log(ambil.tittle);
-        }))
+    .then(api => api.json())
+    .then(json => json.data.map(ambil => {
+        console.log(ambil.tittle);
+    }));
