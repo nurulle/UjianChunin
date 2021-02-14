@@ -5,7 +5,7 @@ const janji = new Promise((resolve, reject) => {
         resolve('ayo pergi..');
     } else {
         reject('ga jadi pergi');
-    }
+  };
 });
 
 janji
@@ -24,7 +24,7 @@ const janji2 = new Promise((resolve, reject) => {
       setTimeout(() => {
         reject('ga jadi pergi');
       }, 2000)
-  }
+  };
 });
 
 console.log('mulai');
@@ -37,20 +37,20 @@ console.log('selesai');
 //
 const semangat = () => {
   return new Promise((resolve, reject) => {
-      let bangkit = true;
+    let bangkit = true;
 
-      if (bangkit) {
-          resolve("bismillah pasti bisa");
-      } else {
-          reject("astagfirullah");
-      }
-  })
-}
+    if (bangkit) {
+      resolve("bismillah pasti bisa");
+    } else {
+      reject("astagfirullah");
+    };
+  });
+};
 
 semangat()
   .then((data) => {
-      console.log(data)
+    console.log(data)
   })
   .catch((err) => {
-      console.log(err);
-  })
+    console.log(err);
+  });
