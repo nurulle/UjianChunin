@@ -1,20 +1,24 @@
-function reverseWords(sentence){
-	let words = sentence.split(" ").reverse(); 
+function kebalik(isi) {
+	let kalimat = isi; 
+	let hasil = '';
+
+  for (let i = isi.length - 1; i >= 0; i--) {
+		hasil += kalimat[i];
+	}
+	return hasil;
+}
+
+console.log(kebalik('plugin cinta saya'));
+
+
+
+ 
+function balik(kata){
+	let isi = kata.split(" ").reverse(); 
 	let string = "";
-	for(word in words)
-		string += (word > 0 ? " " : "") + words[word]; 
+	for(word in isi)
+		string += (word > 0 ? " " : "") + isi[word]; 
 	return string;
 }
 
-console.log(reverseWords("plugin cinta saya"));
-
-function reverseString1(str) {
-	var currentString = str;
-	var newString = '';
-   for (let i = str.length - 1; i >= 0; i--) {
-	 newString = newString + currentString[i];
-	}
-	
-	return newString;
-   }
-   console.log(reverseString1('plugin cinta saya'));
+console.log(balik("plugin cinta saya"));

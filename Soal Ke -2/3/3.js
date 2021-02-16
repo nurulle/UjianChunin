@@ -1,15 +1,14 @@
-function piramidKebalik() {
+function piramidKebalik1() {
   let string = '';
-  for(i = 1; i <= 5; i++){
-    for(j = 1; j <= i;  j++){
+  for ( kolom = 4; kolom >= 1; kolom--) {
+    for(baris = 4; baris > kolom; baris--){
       string += ' '
     }
-
-    for(k = 5 - i; k >= i - 5 ; k--){
-      string += i
+    for(bawah = 1; bawah < (kolom * 2); bawah++){
+      string += bawah;
     }
     string += '\n'
   }
   console.log(string)
 } 
-piramidKebalik();
+piramidKebalik1();
